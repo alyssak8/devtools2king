@@ -1,0 +1,15 @@
+/* Theme: Child of Twenty Thirteen
+Description: Child theme based on Twenty Thirteen for Dev Tools 2
+Author: Alyssa
+Version: 1.0
+Template: twentythirteen */ 
+
+@import url('../twentythirteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700');
+
+/*typography changes*/
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;*/
+
+
