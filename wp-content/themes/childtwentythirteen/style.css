@@ -12,4 +12,21 @@ Template: twentythirteen */
 /*font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;*/
 
+/* Nav Bar Styles */
 
+.navbar {
+    background-color:  #421C52;
+}
+
+.nav-menu li a {
+    color: #fff;
+}
+
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
+    background-color: #732C7B;
+    color: #fff;
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: #BDAEC6;
+}
