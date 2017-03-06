@@ -30,3 +30,44 @@ font-family: 'Open Sans', sans-serif;*/
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
     color: #BDAEC6;
 }
+
+/* Body Styles */
+.site-main {
+	background-color: #BDAEC6;
+}
+
+.entry-title {
+    color: #421C52;
+    font-family: 'Merriweather', serif;
+}
+
+.entry-title a {
+    color: #421C52;
+    font-family: 'Merriweather', serif;
+}
+
+.entry-title a:hover {
+    color: #9C8AA5;
+}
+
+a:active, a:hover {
+    color: #9C8AA5;
+}
+
+.entry-meta a {
+    color:  #732C7B;
+}
+
+.entry-meta a:hover {
+    color: #9C8AA5;
+}
+
+.entry-content {
+	color: #570b5e;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Removes Proudly Powered by Wordpress Footer Panel */
+.site-info {
+  display: none;
+}
