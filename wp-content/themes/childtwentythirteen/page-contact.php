@@ -24,38 +24,38 @@ get_header(); ?>
 
 					<div class="entry-content">
 						<?php the_content(); ?>
-
-	<section>
-		<form class="form1" action="" method="post">
-		<br>
-		<label>First Name:</label>
-		<br>
-		<input type="text" name="first_name" placeholder="First Name" required>
-		<br>
-		<label>Last Name: </label>
-		<br>
-		<input type="text" name="last_name" placeholder="Last Name" required>
-		<br>
-		<label>Phone Number: </label>
-		<br>
-		<input type="tel" name="tel_number" placeholder="4161111111" required>
-		<br>
-		<label>Password: </label>
-		<br>
-		<input type="password" name="password" placeholder="******" required>
-		<br>
-		<label>Email: </label>
-		<br>
-		<input type="text" name="mail" placeholder="abcdef@email.com" required>
-		<br>
-		<label>Comments:</label>
-		<br>
-		<textarea name="longer_text" placeholder="Something interesting" required></textarea>
-		<br>
-		<input type="submit" name="submit" value="Submit">
-		<input type="reset" name="reset" value="Reset">
-		</form>
-	</section>
+			<!-- This is the code for the form displayed on the contact page-->
+			<section>
+				<form class="form1" action="" method="post">
+					<br>
+					<label>First Name:</label>
+					<br>
+					<input type="text" name="first_name" placeholder="First Name" required>
+					<br>
+					<label>Last Name: </label>
+					<br>
+					<input type="text" name="last_name" placeholder="Last Name" required>
+					<br>
+					<label>Phone Number: </label>
+					<br>
+					<input type="tel" name="tel_number" placeholder="4161111111" required>
+					<br>
+					<label>Password: </label>
+					<br>
+					<input type="password" name="password" placeholder="******" required>
+					<br>
+					<label>Email: </label>
+					<br>
+					<input type="text" name="mail" placeholder="abcdef@email.com" required>
+					<br>
+					<label>Comments:</label>
+					<br>
+					<textarea name="longer_text" placeholder="Something interesting" required></textarea>
+					<br>
+					<input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Reset">
+				</form>
+			</section>
 						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 					</div><!-- .entry-content -->
 

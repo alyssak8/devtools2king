@@ -18,6 +18,7 @@ get_header(); ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php printf( __( '%s', 'twentythirteen' ), single_cat_title( '', false ) ); ?>
 				</h1>
+				<!--- This displays description text for specific category posts -->
 					<?php if (is_category('Travel')) : ?>
 					<p class="archive-subtitle">Read about my travels here</p>
 				<?php elseif (is_category('Personal')) : ?>
