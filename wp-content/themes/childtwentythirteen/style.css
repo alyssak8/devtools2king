@@ -14,7 +14,7 @@ Template: twentythirteen */
 /*font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;*/
 
-/* Header */
+/* Header Styles*/
 .site-header {
 	background-color: #732C7B;
 }
@@ -105,15 +105,15 @@ a:active, a:hover {
     color:  #732C7B;
 }
 
-/* Contact Page */
+/* Contact Page Styles*/
+
 button, input[type="submit"], input[type="button"], input[type="reset"] {
     background: #732C7B;
     border-bottom: 3px solid #732C7B;
     color: #fff;
 }
 
-/*Footer*/
-
+/*Footer Styles*/
 
 .site-footer {
 	background-color:  #421C52;
