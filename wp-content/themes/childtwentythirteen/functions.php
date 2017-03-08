@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * The template for functions Childtwentythirteen
+ */
+
 function my_theme_enqueue_styles() {
 
     $parent_style = 'twentythirteen-style'; // This is 'twentythirteen-style' for the Twenty Thirteen theme.
@@ -22,7 +27,5 @@ function google_fonts() {
             
 add_action('wp_enqueue_scripts', 'google_fonts');
 
-remove_custom_image_header();
-unregister_default_headers( $headers )
 
 ?>
